@@ -1,1 +1,12 @@
-
+#demoFont {
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 30px;
+letter-spacing: 6px;
+word-spacing: -1px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
