@@ -1,25 +1,22 @@
-#demoFont {
-font-family: "Lucida Console", Monaco, monospace;
-font-size: 30px;
-letter-spacing: 6px;
-word-spacing: -1px;
-color: #000000;
-font-weight: 400;
-text-decoration: none solid rgb(68, 68, 68);
-font-style: normal;
-font-variant: normal;
-text-transform: uppercase;
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
 }
-
-#demotext {
-color: rgba(255,255,255,.3);
-background: #1a1a1a;
-text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
 }
-
-
-body {
-  background-image: url("background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
