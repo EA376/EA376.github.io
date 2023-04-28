@@ -10,3 +10,9 @@ font-style: normal;
 font-variant: normal;
 text-transform: uppercase;
 }
+
+#demotext {
+color: rgba(255,255,255,.3);
+background: #1a1a1a;
+text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
