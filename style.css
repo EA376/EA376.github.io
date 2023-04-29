@@ -1,37 +1,23 @@
-/* Global styles */
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.btn {
-    background-color: #000;
-    color: #fff;
-    display: inline-block;
-    padding: 10px 20px;
+* {
     text-align: center;
-    text-transform: uppercase;
+}.heading {
+    font-family: Arial;
+    margin-top:40vh;
+}.URL-input, .convert-button {
+    font-size:1.3em;
+    padding:5px 10px;
+}.URL-input {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+}.URL-input:focus {
+    border:2px solid #0485ff;
+}.convert-button {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #0485ff;
+    background: #0485ff;
+    color:white;
 }
-
-/* Header styles */
-
-header {
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    position
